@@ -1,4 +1,4 @@
-### Analysis of commuting patterns, changed by industry and location in England and Wales.
+# Analysis of commuting patterns, changed by industry and location in England and Wales.
 
 The following project uses census data to analyse changing pattterns in commuter behaviour in England and Wales, between 2011 and 2021. This is achieved through various justified visualisation techniques, following Munzner's taxonomy. The final visualisation is presented in 3 dashboards in Tableau and is supported by a full report.
 
@@ -12,14 +12,14 @@ The anaylsis is conducted on:
 
 There are 2 files in this repository:
 
-# VA/ (Final submission)
+### VA/ (Final submission)
 This is what was submitted to the university to be graded, containing:
 - report.pdf - Full report outlining the project pipeline, visualisation choices, and insights
 - Tableau files/ - Contains the tableau dashboards under one file
 - Python files/ - Python scripts used for processing the data including dimensionality reduction
 - Data/ - Cleaned datasets, as well as shape files required for the tableau visualisation
 
-# Raw data/ (Source data)
+### Raw data/ (Source data)
 This contains the original datasets sourced from the UK Office for National Statistics via Nomis. These files are included for transparency and reproducibility. The raw data files are named using a consistent format for clarity. Each filename follows the pattern: (number of variables) - (year)(geographic level) (variable description). For example, 1 - 11LAD met.csv refers to 2011 data at the Local Authority District level, showing method of travel.
 
 The variables in question are abbrevated as follows:
@@ -35,7 +35,7 @@ Scripts included in the Python files folder:
 - PCA prep.py – Prepares cleaned data for principal component analysis
 - UMAP prep.py – Prepares 2011–2021 change data for UMAP dimensionality reduction
 
-# Libraries used:
+### Libraries used:
 - pandas
 - numpy
 - scikit-learn
