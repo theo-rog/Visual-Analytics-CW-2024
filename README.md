@@ -53,7 +53,7 @@ Cleaned datasets used in the project (in VA/Data) include:
 •	shape files/ – Map files used for geospatial visualisations in Tableau
 
 ## Notes
-•	This project was submitted as part of a Data Science visual analytics module (MSc)
+•	This project was submitted as part of a Data Science Visual Analytics module (MSc) (2024)
 •	The Tableau dashboard is included as-is; further edits are not possible due to lack of access to Tableau
 
 ## Contact
